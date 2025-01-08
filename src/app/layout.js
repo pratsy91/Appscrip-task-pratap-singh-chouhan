@@ -5,6 +5,7 @@ import CustomSelect from './components/CustomSelect'
 import Footer from './components/Footer'
 import Image from 'next/image';
 import MobileFooter from './components/MobileFooter'
+import { metadata } from './layout.server'
 
 export default function RootLayout({ children }) {
   const [openAccordion, setOpenAccordion] = useState(null);
@@ -41,6 +42,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
       </head>
       <body>
