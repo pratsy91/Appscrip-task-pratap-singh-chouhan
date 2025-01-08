@@ -1,7 +1,6 @@
 import styles from './products.module.css';
 import Image from 'next/image';
 
-// Mark as async server component (no 'use client' directive)
 async function getProducts() {
   const res = await fetch('https://fakestoreapi.com/products', { cache: 'no-store' });
   if (!res.ok) {
