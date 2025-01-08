@@ -92,7 +92,7 @@ export default function RootLayout({ children }) {
               </nav>
             </div>
           </header>
-          <section className="red-section">
+          <section className="highlight-section">
             <h1 className="discover-text">DISCOVER OUR PRODUCTS</h1>
             <p className="discover-subtext">
               Lorem ipsum dolor sit amet consectetur. Amet est posuere rhoncus scelerisque. Dolor integer scelerisque nibh amet mi ut elementum dolor.
