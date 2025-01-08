@@ -34,7 +34,7 @@ body {
 .top-bar-content {
   display: flex;
   justify-content: space-between;
-  padding: 0 274px; /* Side padding */
+  padding: 0 274px;
   max-width: 1440px;
   width: 100%;
 }
@@ -42,7 +42,7 @@ body {
 .top-bar-item {
   display: flex;
   align-items: center;
-  gap: 10px; /* Gap between icon and text */
+  gap: 10px;
   color: white;
   font-family: 'Simplon Norm', sans-serif;
   font-size: 14px;
@@ -66,7 +66,7 @@ body {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  margin-bottom: 60px; /* Space below logo */
+  margin-bottom: 60px;
 }
 
 .logo-container {
@@ -200,12 +200,10 @@ body {
   text-transform: uppercase;
 }
 
-/* Remove button focus outline */
 .sidebar-toggle:focus {
   outline: none;
 }
 
-/* Optional: hover state */
 .sidebar-toggle:hover {
   opacity: 0.8;
 }
@@ -231,18 +229,15 @@ body {
   background-size: 12px 8px;
 }
 
-/* Remove focus outline */
 .sort-select:focus {
   outline: none;
   border: none;
 }
 
-/* Remove hover effects */
 .sort-select:hover {
   border: none;
 }
 
-/* Remove IE/Edge specific styling */
 .sort-select::-ms-expand {
   display: none;
 }
@@ -287,19 +282,18 @@ body {
   margin-left: 0;
 }
 
-/* Responsive styles */
 @media (max-width: 1024px) {
   .main-nav {
     padding: 0 48px;
   }
 
   .logo {
-    width: 36px; /* Slightly smaller logo */
+    width: 36px;
     height: 36px;
   }
 
   .icon-group img {
-    width: 22px; /* Slightly smaller icons */
+    width: 22px;
     height: 22px;
   }
 
@@ -327,12 +321,12 @@ body {
   }
 
   .logo {
-    width: 32px; /* Even smaller logo */
+    width: 32px;
     height: 32px;
   }
 
   .icon-group img {
-    width: 20px; /* Even smaller icons */
+    width: 20px;
     height: 20px;
   }
 
@@ -371,25 +365,22 @@ body {
     padding: 0;
   }
 
-  /* Example CSS */
-.icon-group img[alt="Profile"] {
- display: none;
-}
-
+  .icon-group img[alt="Profile"] {
+    display: none;
+  }
 
   .main-nav {
     padding: 0 16px;
-    /* flex-direction: column; */
     gap: 20px;
   }
 
   .logo {
-    width: 28px; /* Smallest logo size */
+    width: 28px;
     height: 28px;
   }
 
   .icon-group img {
-    width: 18px; /* Smallest icon size */
+    width: 18px;
     height: 18px;
   }
 
@@ -453,7 +444,6 @@ body {
   color: #252020;
 }
 
-/* Optional: Custom checkbox styling */
 .custom-checkbox input[type="checkbox"] {
   appearance: none;
   -webkit-appearance: none;
@@ -477,7 +467,6 @@ body {
   position: absolute;
 }
 
-/* Hover state */
 .custom-checkbox:hover input[type="checkbox"] {
   border-color: #000;
 }
@@ -579,7 +568,6 @@ body {
   text-align: left;
 }
 
-/* Keep the accordion checkbox text styles separate */
 .accordion-content .checkbox-text {
   font-family: 'Simplon Norm', sans-serif;
   font-size: 16px;
@@ -639,7 +627,6 @@ body {
   font-weight: 500;
 }
 
-/* Footer Styles */
 .footer {
   background-color: black;
   color: white;
@@ -649,14 +636,12 @@ body {
   margin-top: auto;
 }
 
-/* Add a container for the footer content */
 .footer > * {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Update footer-top */
 .footer-top {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -684,24 +669,20 @@ body {
   margin-bottom: 24px;
 }
 
-/* Remove margin from last paragraph in each section */
 .contact-info p:last-of-type {
   margin-bottom: 0;
 }
 
-/* Add space between sections (CONTACT US and CURRENCY) */
 .contact-info h4:not(:first-child) {
   margin-top: 24px;
 }
 
-/* Currency note specific style */
 .currency-note {
   font-size: 12px;
   color: #888;
   margin-top: 24px;
 }
 
-/* Update footer-middle */
 .footer-middle {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 548px));
@@ -721,7 +702,6 @@ body {
   align-items: flex-start;
 }
 
-/* Rest of the footer styles */
 .newsletter h4,
 .contact-info h4 {
   margin-bottom: 16px;
@@ -807,7 +787,6 @@ body {
   color: #888;
 }
 
-/* Add horizontal line styles */
 .footer hr {
   width: 100%;
   border: none;
@@ -824,14 +803,13 @@ body {
 .social-icons {
   display: flex;
   gap: 16px;
-  margin-bottom: 24px; /* Space below social icons */
+  margin-bottom: 24px;
 }
 
 .social-icons i {
   font-size: 24px;
 }
 
-/* Payment Icons section */
 .payment-icons {
   display: flex;
   gap: 8px;
@@ -848,8 +826,6 @@ body {
   font-size: 24px;
 }
 
-
-/* Payment Icons Colors */
 .payment-icons .fa-google-pay,
 .payment-icons .fa-apple-pay,
 .payment-icons .fa-paypal,
@@ -863,12 +839,10 @@ body {
   justify-content: center;
 }
 
-/* Optional: Add hover state */
 .newsletter-input button:hover {
-  background-color: #1a1a1a; /* Slightly lighter black on hover */
+  background-color: #1a1a1a;
 }
 
-/* Language selector styles */
 .language-select {
   width: 52px;
   padding: 4px;
@@ -892,7 +866,6 @@ body {
   outline: none;
 }
 
-/* Remove default arrow in IE */
 .language-select::-ms-expand {
   display: none;
 }
@@ -904,21 +877,21 @@ body {
 }
 
 .sub-nav {
-  margin-top: 60px; /* Space below logo */
-  width: 100%; /* Take full width to enable centering */
+  margin-top: 60px;
+  width: 100%;
   display: flex;
-  justify-content: center; /* Center the navigation */
-  border-bottom: 1px solid #E5E5E5; /* Added border */
-  padding-bottom: 24px; /* Optional: Add some space between text and border */
+  justify-content: center;
+  border-bottom: 1px solid #E5E5E5;
+  padding-bottom: 24px;
 }
 
 .sub-nav ul {
   display: flex;
-  gap: 64px; /* Space between nav items */
+  gap: 64px;
   list-style: none;
   padding: 0;
   margin: 0;
-  justify-content: center; /* Center the list items */
+  justify-content: center;
 }
 
 .sub-nav li {
@@ -960,122 +933,18 @@ body {
   stroke: #FF0000;
 }
 
-/* Media Queries */
 @media (max-width: 1120px) {
-
   .top-bar-content {
     padding: 0;
   }
   .top-bar-item {
     display: none;
   }
-
   .top-bar-item:first-child {
     display: flex;
   }
 }
 
-/* Base Styles */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: 'Simplon Norm', Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.5;
-  width: 100%;
-  height: 100%;
-}
-
-.container {
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 16px;
-}
-
-/* Header Styles */
-.main-header {
-  width: 100%;
-  padding: 0;
-}
-
-.top-bar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  color: white;
-  padding: 8px 16px;
-}
-
-.top-bar-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  max-width: 1440px;
-}
-
-.top-bar-item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: white;
-  font-size: 14px;
-}
-
-.main-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 0;
-}
-
-.logo-container {
-  display: flex;
-  align-items: center;
-  padding: 8px;
-}
-
-.icon-group {
-  display: flex;
-  gap: 16px;
-}
-
-.logo-text {
-  font-size: 24px;
-}
-
-/* Discover Section Styles */
-/* .red-section {
-  text-align: center;
-  padding: 20px 0;
-  margin-block: 60px;
-} */
-
-.discover-text {
-  font-size: 60px;
-  font-weight: 400;
-  line-height: 72px;
-  letter-spacing: 1px;
-  color: black;
-}
-
-.discover-subtext {
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 40px;
-  color: black;
-  max-width: 900px;
-  margin: 16px auto 0;
-  padding: 0 20px;
-}
-
-/* Media Queries */
 @media (max-width: 1024px) {
   .container {
     padding: 0 8px;
@@ -1113,7 +982,7 @@ body {
   .discover-subtext {
     font-size: 16px;
     line-height: 24px;
-     top: 10px;
+    top: 10px;
   }
 
   .sub-nav {
@@ -1131,30 +1000,27 @@ body {
   }
 }
 
-/* Media Queries for Mobile and Tablet */
 @media (max-width: 1024px) {
-
   .red-section {
     margin-block: 0;
     height: 150px;
   }
   
   .sidebar {
-    display: none; /* Hide sidebar */
+    display: none;
   }
 
   .sidebar-toggle {
     opacity: 0.5;
     cursor: not-allowed;
-    pointer-events: none; /* Prevents any click events */
+    pointer-events: none;
   }
 
   .footer {
-    display: none; /* Hide footer */
+    display: none;
   }
 }
 
-/* Media Queries for Mobile */
 @media (max-width: 768px) {
   .filter-section {
     font-size: 14px;
@@ -1167,40 +1033,35 @@ body {
   }
 }
 
-/* Base styles */
 .items-count {
   font-size: 16px;
 }
 
-/* Media query for mobile devices */
 @media (max-width: 768px) {
   .items-count {
-    display: none; /* Hide items count on mobile */
+    display: none;
   }
 }
 
-/* Base styles */
 .toggle-icon {
   display: inline-block;
 }
 
-/* Media query for mobile devices */
 @media (max-width: 768px) {
   .toggle-icon {
-    display: none; /* Hide toggle icon on mobile */
+    display: none;
   }
 
   .toggle-text {
-    color: #000; /* Black text color */
+    color: #000;
   }
 
   .sidebar-toggle {
-    pointer-events: none; /* Disable button interaction */
+    pointer-events: none;
     cursor: default;
   }
 }
 
-/* Mobile styles */
 @media screen and (max-width: 768px) {
   .toggle-icon {
     display: none;
@@ -1208,15 +1069,14 @@ body {
 
   .sidebar-toggle {
     color: #000;
-    text-decoration: none; /* Remove underline on mobile */
+    text-decoration: none;
   }
 
   .toggle-text {
-    text-decoration: none; /* Ensure no underline on text */
+    text-decoration: none;
   }
 }
 
-/* Base styles for the sidebar toggle button */
 .sidebar-toggle {
   display: flex;
   align-items: center;
@@ -1227,7 +1087,6 @@ body {
   text-decoration: none;
 }
 
-/* Mobile styles */
 @media screen and (max-width: 768px) {
   .toggle-icon {
     display: none;
@@ -1236,7 +1095,7 @@ body {
   .sidebar-toggle {
     color: #000;
     text-decoration: none;
-    margin-right: 20px; /* Add right margin for mobile */
+    margin-right: 20px;
   }
 
   .toggle-text {
@@ -1244,14 +1103,12 @@ body {
   }
 }
 
-/* Media query for screens with max-width of 1120px */
 @media screen and (max-width: 1120px) {
   .contact-info {
-    min-width: 350px; /* Adjust min-width for smaller screens */
+    min-width: 350px;
   }
 
   .signin-text {
-    
     font-size: 10px;
   }
 }

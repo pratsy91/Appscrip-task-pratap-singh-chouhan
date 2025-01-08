@@ -13,38 +13,14 @@ export default function RootLayout({ children }) {
   const [isMobile, setIsMobile] = useState(false);
 
   const accordionData = [
-    {
-      title: "Ideal For",
-      options: ["MEN", "WOMEN", "BABY & KIDS"]
-    },
-    {
-      title: "Occasion",
-      options: ["CASUAL", "FORMAL", "PARTY", "SPORTS"]
-    },
-    {
-      title: "Work",
-      options: ["PRINTED", "EMBROIDERED", "SOLID", "WOVEN DESIGN"]
-    },
-    {
-      title: "Fabric",
-      options: ["COTTON", "POLYESTER", "SILK", "WOOL", "LINEN"]
-    },
-    {
-      title: "Segment",
-      options: ["LUXURY", "PREMIUM", "MAINSTREAM", "ECONOMY"]
-    },
-    {
-      title: "Suitable For",
-      options: ["SUMMER", "WINTER", "ALL SEASON"]
-    },
-    {
-      title: "Raw Materials",
-      options: ["ORGANIC", "SYNTHETIC", "NATURAL BLEND"]
-    },
-    {
-      title: "Patterns",
-      options: ["STRIPED", "CHECKED", "SOLID", "PRINTED"]
-    }
+    { title: "Ideal For", options: ["MEN", "WOMEN", "BABY & KIDS"] },
+    { title: "Occasion", options: ["CASUAL", "FORMAL", "PARTY", "SPORTS"] },
+    { title: "Work", options: ["PRINTED", "EMBROIDERED", "SOLID", "WOVEN DESIGN"] },
+    { title: "Fabric", options: ["COTTON", "POLYESTER", "SILK", "WOOL", "LINEN"] },
+    { title: "Segment", options: ["LUXURY", "PREMIUM", "MAINSTREAM", "ECONOMY"] },
+    { title: "Suitable For", options: ["SUMMER", "WINTER", "ALL SEASON"] },
+    { title: "Raw Materials", options: ["ORGANIC", "SYNTHETIC", "NATURAL BLEND"] },
+    { title: "Patterns", options: ["STRIPED", "CHECKED", "SOLID", "PRINTED"] }
   ];
 
   const toggleAccordion = (index) => {
@@ -73,30 +49,15 @@ export default function RootLayout({ children }) {
             <div className="top-bar">
               <div className="top-bar-content">
                 <div className="top-bar-item">
-                  <Image 
-                    src="/element.svg" 
-                    alt="Element" 
-                    width={16} 
-                    height={16}
-                  />
+                  <Image src="/element.svg" alt="Element" width={16} height={16} />
                   <span>Lorem ipsum dolor</span>
                 </div>
                 <div className="top-bar-item">
-                  <Image 
-                    src="/element.svg" 
-                    alt="Element" 
-                    width={16} 
-                    height={16}
-                  />
+                  <Image src="/element.svg" alt="Element" width={16} height={16} />
                   <span>Lorem ipsum dolor</span>
                 </div>
                 <div className="top-bar-item">
-                  <Image 
-                    src="/element.svg" 
-                    alt="Element" 
-                    width={16} 
-                    height={16}
-                  />
+                  <Image src="/element.svg" alt="Element" width={16} height={16} />
                   <span>Lorem ipsum dolor</span>
                 </div>
               </div>
@@ -110,30 +71,10 @@ export default function RootLayout({ children }) {
                   <span className="logo-text">LOGO</span>
                 </div>
                 <div className="icon-group">
-                  <Image 
-                    src="/search.svg" 
-                    alt="Search" 
-                    width={24} 
-                    height={24}
-                  />
-                  <Image 
-                    src="/heart.svg" 
-                    alt="Wishlist" 
-                    width={24} 
-                    height={24}
-                  />
-                  <Image 
-                    src="/bag.svg" 
-                    alt="Shopping Bag" 
-                    width={24} 
-                    height={24}
-                  />
-                  <Image 
-                    src="/profile.svg" 
-                    alt="Profile" 
-                    width={24} 
-                    height={24}
-                  />
+                  <Image src="/search.svg" alt="Search" width={24} height={24} />
+                  <Image src="/heart.svg" alt="Wishlist" width={24} height={24} />
+                  <Image src="/bag.svg" alt="Shopping Bag" width={24} height={24} />
+                  <Image src="/profile.svg" alt="Profile" width={24} height={24} />
                   <select className="language-select" defaultValue="ENG">
                     <option value="ENG">ENG</option>
                     <option value="HND">HND</option>
